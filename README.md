@@ -6,14 +6,14 @@ The aim of this project is to monitor a plant with a few sensors and alert when 
 
 ## The plant
 
-A *Tradescantia* variety or "Wandering Jew", hence the name of the project.
+A *Tradescantia* variety or "Wandering Jew", hence the name of the project.  *Tradescantia* was the name given to the plant genus by Carl Linnaeus, after English naturalist John Tradescant.  You can read more about them [here](https://en.wikipedia.org/wiki/Tradescantia#Etymology).  
 
 ## Board used
 
 Tessel-2 with Environment Versions:
 
 t2-cli: 0.1.23  
-t2-firmware: 0.2.0 
+t2-firmware: 0.2.0  
 NodeJS: 8.11.3
 
 ## Monitors used
