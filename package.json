@@ -1,0 +1,24 @@
+{
+  "name": "tradescantia",
+  "version": "0.0.1",
+  "description": "Tessel project to monitor a Tradescantia plant",
+  "main": "monitor.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "johnny-five": "^1.4.0",
+    "justgage": "^1.3.5",
+    "socket.io": "^1.4.8",
+    "tessel-io": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "TBA",
+  "keywords": [
+    "Tessel",
+    "Plant monitoring"
+  ],
+  "license": "MIT",
+  "readme": "An environmental monitor for plants"
+}
