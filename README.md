@@ -2,11 +2,15 @@
 
 ## Overview
 
-The aim of this project is to monitor a plant with a few sensors and alert when readings are outside ideal ranges.  
+The aim of this project is to monitor a plant with a few sensors and alert when readings are outside ideal ranges.
+
+<p align="center">
+  <img width=80% alt="screenshot" src=https://github.com/alex-engelmann/tradescantia/blob/master/app/tradescantia-pic.jpg>
+</p>
 
 ## The Plant
 
-A *Tradescantia* variety or "Wandering Jew", hence the name of the project.  *Tradescantia* was the name given to the plant genus by Carl Linnaeus, after English naturalist John Tradescant.  You can read more about them [here](https://en.wikipedia.org/wiki/Tradescantia#Etymology).  
+A *Tradescantia* variety or "Wandering Jew", hence the name of the project.  *Tradescantia* was the name given to the plant genus by Carl Linnaeus, after English naturalist John Tradescant.  You can read more about them [here](https://en.wikipedia.org/wiki/Tradescantia#Etymology).
 
 ## The Board
 
