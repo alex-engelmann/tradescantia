@@ -61,7 +61,7 @@ window.onload = function() {
       id: "soilMoisture",
       value: 0,
       min: 0,
-      max: 800,
+      max: 900,
       label: "Soil Moisture",
       decimals: 0,
       relativeGaugeSize: true,
