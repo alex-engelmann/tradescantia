@@ -10,7 +10,7 @@ window.onload = function() {
       min: -40.0,
       max: 85.0,
       label: "° Celsius",
-      decimals: 1,
+      decimals: 2,
       relativeGaugeSize: true,
     });
 
@@ -20,18 +20,22 @@ window.onload = function() {
       min: 32.0,
       max: 212.0,
       label: "° Fahrenheit",
-      decimals: 1,
+      decimals: 2,
       relativeGaugeSize: true,
     });
   
-    monitor.barometer = new JustGage({
-      id: "barometer",
+    monitor.barometerkPa = new JustGage({
+      id: "barometerkPa",
       value: 0,
       min: 50,
       max: 150,
       label: "Pressure/kPa",
+      decimals: 3,
       relativeGaugeSize: true,
     });
+
+
+
   
     monitor.altimeter = new JustGage({
       id: "altimeter",
@@ -39,7 +43,7 @@ window.onload = function() {
       min: 0,
       max: 100,
       label: "Meters",
-      decimals: 1,
+      decimals: 10,
       relativeGaugeSize: true,
     });
   
@@ -49,7 +53,7 @@ window.onload = function() {
       min: 0,
       max: 100,
       label: "Humidity %",
-      decimals: 1,
+      decimals: 3,
       relativeGaugeSize: true,
     });
 
@@ -59,7 +63,7 @@ window.onload = function() {
       min: 0,
       max: 800,
       label: "Soil Moisture",
-      decimals: 1,
+      decimals: 0,
       relativeGaugeSize: true,
     });
 

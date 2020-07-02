@@ -20,7 +20,8 @@ var server = new http.Server(application);
 var io = new SocketIO(server);
 
 application.use(Express.static(path.join(__dirname, "/app")));
-application.use("/vendor", Express.static(__dirname + "/node_modules/"));
+//This might be removable
+application.use("/node_modules", Express.static(__dirname + "/node_modules/"));
 
 board.on("ready", () => {
   var clients = new Set();
@@ -44,7 +45,7 @@ board.on("ready", () => {
         recipient.emit("report", {
           thermometerC: monitor.thermometer.celsius,
           thermometerF: monitor.thermometer.fahrenheit,
-          barometer: monitor.barometer.pressure,
+          barometerkPa: monitor.barometer.pressure,
           hygrometer: monitor.hygrometer.relativeHumidity,
           altimeter: monitor.altimeter.meters,
           soilMoisture: soil.value
