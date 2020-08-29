@@ -56,16 +56,17 @@ window.onload = function() {
       decimals: 3,
       relativeGaugeSize: true,
     });
-
-    monitor.soilMoisture = new JustGage({
-      id: "soilMoisture",
-      value: 0,
-      min: 0,
-      max: 900,
-      label: "Soil Moisture",
-      decimals: 0,
-      relativeGaugeSize: true,
-    });
+    
+    //Disabled the soil sensor to speed up development
+    // monitor.soilMoisture = new JustGage({
+    //   id: "soilMoisture",
+    //   value: 0,
+    //   min: 0,
+    //   max: 900,
+    //   label: "Soil Moisture",
+    //   decimals: 0,
+    //   relativeGaugeSize: true,
+    // });
 
 
   

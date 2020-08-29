@@ -30,7 +30,9 @@ board.on("ready", () => {
     //This is for Oakland, but is location-specific
     elevation: 29,
   });
-  var soil = new five.Sensor("a7");
+
+  //Disabled the soil sensor to speed up development
+  //var soil = new five.Sensor("a7");
 
 
   //This monitors the BME280
@@ -47,8 +49,9 @@ board.on("ready", () => {
           thermometerF: monitor.thermometer.fahrenheit,
           barometerkPa: monitor.barometer.pressure,
           hygrometer: monitor.hygrometer.relativeHumidity,
-          altimeter: monitor.altimeter.meters,
-          soilMoisture: soil.value
+          altimeter: monitor.altimeter.meters
+          //Disabled the soil sensor to speed up development
+          //soilMoisture: soil.value
         });
       });
     }
