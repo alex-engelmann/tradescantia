@@ -2,7 +2,7 @@
 
 ## Overview
 
-The aim of this project is to monitor a plant with a few sensors and alert when readings are outside ideal ranges.
+The aim of this project was to monitor a plant with a few sensors and alert when readings are outside ideal ranges.  The Tessel 2 board broke down with hardware failures and the project is discontinued.
 
 <p align="center">
   <img width=80% alt="screenshot" src=https://github.com/alex-engelmann/tradescantia/blob/master/app/tradescantia-pic.jpg>
